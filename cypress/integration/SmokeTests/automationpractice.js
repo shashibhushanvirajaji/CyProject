@@ -19,6 +19,7 @@ describe('testing automation practic website ',()=>{
             const texxt = $element.text()
             expect(texxt).to.be.eq('\nAutomation Testing Practice\n')
             //.includes('Automation Testing Practice')
+            // adding comment to run the github actions
         })
     })
 })
